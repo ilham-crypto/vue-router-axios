@@ -34,7 +34,8 @@ public class HibernateApplication {
                 + "1) Insert a new user. "
                 + "2) Find a user. "
                 + "3) Edit a user. "
-                + "4) Delete a user.");
+                + "4) Delete a user."
+        + "5) Delete a user.");
         int option = Integer.parseInt(userInputReader.readLine());
 
         switch (option) {
